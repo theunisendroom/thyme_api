@@ -1,0 +1,11 @@
+package za.co.thyme.config;
+
+@Configuration
+@EnableWebMvcSecurity
+public class SecurityCtxConfig extends WebSecurityConfigurerAdapter {
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web.ignoring()
+                .antMatchers(HttpMethod.POST,
+                        "<YOUR URL>");
+    }

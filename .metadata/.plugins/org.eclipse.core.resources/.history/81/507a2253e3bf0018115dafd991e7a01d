@@ -1,0 +1,7 @@
+package za.co.thyme.controller;
+
+import za.co.thyme.domain.Student;
+
+public class StudentController extends CrudRepository<Student, Long> {
+
+}

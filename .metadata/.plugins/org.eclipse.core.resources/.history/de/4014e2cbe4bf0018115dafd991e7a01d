@@ -1,0 +1,19 @@
+package za.co.thyme.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import za.co.thyme.domain.Student;
+
+@Service
+public class StudentService {
+
+	@Autowired
+	private StudentRepository;
+	
+	public List<Student> getStudents(){
+		
+	}
+}

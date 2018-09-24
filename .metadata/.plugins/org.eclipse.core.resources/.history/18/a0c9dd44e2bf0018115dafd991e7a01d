@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    data-username: thyme
+    data-password: password01
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/thyme

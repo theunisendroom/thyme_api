@@ -1,0 +1,6 @@
+package za.co.thyme.domain;
+
+@Entity
+public class Student {
+
+}

@@ -1,0 +1,14 @@
+package za.co.thyme.domain;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table("")
+public class Student {
+
+	private Long studentId;
+	private Long studentName;
+	private Long studentEmail;
+	
+	
+}

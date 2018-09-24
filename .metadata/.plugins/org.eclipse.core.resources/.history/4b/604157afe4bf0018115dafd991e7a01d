@@ -1,0 +1,6 @@
+package za.co.thyme.service;
+
+@Service
+public class StudentService {
+
+}

@@ -1,0 +1,5 @@
+package za.co.thyme.config;
+
+public class SecurityCtxConfig {
+
+}

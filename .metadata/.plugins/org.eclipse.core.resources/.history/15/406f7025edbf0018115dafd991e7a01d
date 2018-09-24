@@ -1,0 +1,24 @@
+package za.co.thyme.service;
+
+import java.util.List;
+
+import org.apache.commons.collections4.IteratorUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import za.co.thyme.domain.Course;
+
+@Service
+public class CourseService {
+
+	@Autowired
+	private CourseRepository courseRepository;
+	
+	public List<Course> getCourses(){
+		Iterable<Course> students = courseRepository.findAll();
+		
+		List<Course> courseList = IteratorUtils.toList(students.iterator()); 
+
+		return courseList;
+	}
+}
